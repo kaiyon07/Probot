@@ -1,0 +1,119 @@
+
+.navbar{
+	opacity: 0.75;
+	background-color: white;
+   font-family: 'Nanum Brush Script';font-size: 130%;
+}
+
+
+#ul1{
+	padding-right: 50px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+#ul1 li a{
+	padding: 20px 25px;
+	font-size: 210%;
+	color:#06325b;
+}
+
+#ul1 li a:hover{
+	background-color: #03353f;
+	color:white;
+  border-radius: 6px;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear, ease-in;
+  transition-delay: 0s, 1s;
+  text-decoration: underline;
+
+}
+
+.name li a{
+	padding: 20px 100px; 
+}
+
+
+#pback{background-image : url("cr.jpg");
+padding: 8% 17% 5% 17%;
+background-attachment : fixed;
+background-position : 100% 25%;
+text-align: center;
+}
+#dop{	background-color: black;
+	    min-width: 700px;
+        opacity: 0.80;
+	}
+.topics{
+background-image : url(cr.jpg);
+background-attachment : fixed;
+color : white;
+font : 390% Nanum Brush Script, sans-serif;	
+text-align:center;
+padding: 2% 0% 2% 2%;
+}
+#des{
+padding-right: 1%;
+padding-left: 1%;
+	font : 240% Nanum Brush Script, sans-serif;	
+
+}
+#yes {
+background-image : url(skillsbg.jpg);
+background-attachment : fixed;
+text-align: center;
+}
+.one {
+position : absolute;
+left : 10%;
+background-color : white;
+font : 180% Barrio, sans-serif;
+opacity : 0.5;
+text-align : center;
+width : 25%;
+}
+.two {
+position : absolute;
+left : 60%;
+background-color : white;
+font : 180% Barrio, sans-serif;
+opacity : 0.5;
+text-align : center;
+width : 25%;
+}
+.categorys {
+text-align: center;
+letter-spacing : 1px;
+color : white;
+font : bold 440% Nanum Brush Script, sans-serif;
+}
+
+#fqqif{position : absolute;
+left : 10%;
+background-color : white;
+font : 180% Barrio, sans-serif;
+opacity : 0.5;
+text-align : center;
+width : 25%;
+}
+#fqq {position : absolute;
+left : 40%;
+background-color : white;
+font : 240% Nanum Brush Script, sans-serif;
+opacity : 0.75;
+text-align : left;
+width : 55%;}
+#feedg{
+position : absolute;
+left : 10%;
+font : 180% Barrio, sans-serif;
+text-align : center;
+width : 25%;}
+#form{position : absolute;
+left : 40%;
+background-color : white;
+font : 100% Barrio, sans-serif;
+text-align : center;
+width : 50%;
+}

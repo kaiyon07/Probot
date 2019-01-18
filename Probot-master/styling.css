@@ -1,0 +1,115 @@
+
+.navbar{
+	opacity: 0.75;
+	background-color: white;
+	font : 90% ISOCPEUR, sans-serif;
+}
+
+
+#ul1{
+	padding-right: 50px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+#ul1 li a{
+	padding: 20px 25px;
+	font-size: 210%;
+	color:#06325b;
+}
+
+#ul1 li a:hover{
+	background-color: #dee7ed;
+	text-decoration: overline;
+}
+
+.name li a{
+	padding: 20px 100px; 
+}
+
+#pback{background-image : url("cr.jpg");
+padding: 8% 17% 5% 17%;
+background-attachment : fixed;
+background-position : 100% 25%;
+text-align: center;
+}
+#dp{min-width: 500px;}
+
+#text {
+color : #06325b;
+font : 540% ISOCPEUR, sans-serif;
+text-align: center;
+}
+#bio1 {
+color : #06325b;
+font : 200% ISOCPEUR, sans-serif;
+}
+#bio2 {
+
+text-indent : 6%;
+padding: 3% 9% 3% 9%;
+}
+.topics{
+background-image : url(cr.jpg);
+background-attachment : fixed;
+color : white;
+font : 390% ISOCPEUR, sans-serif;	
+text-align:center;
+padding: 2% 0% 2% 2%;
+}
+.sub{
+color : #394e6d;
+font : 300% ISOCPEUR, sans-serif;
+}
+.content{width : auto;
+color : #0b5089;
+font : 250% ISOCPEUR, sans-serif;}
+.time {
+color : #0b5089;
+font : 250% ISOCPEUR, sans-serif;
+}
+#yes {
+background-image : url(skillsbg.jpg);
+background-attachment : fixed;
+text-align: center;
+}
+.one {
+position : absolute;
+left : 10%;
+background-color : white;
+font : 180% ISOCPEUR, sans-serif;
+opacity : 0.5;
+text-align : center;
+width : 25%;
+}
+.two {
+position : absolute;
+left : 60%;
+background-color : white;
+font : 180% ISOCPEUR, sans-serif;
+opacity : 0.5;
+text-align : center;
+width : 25%;
+}
+.categorys {
+text-align: center;
+letter-spacing : 1px;
+color : white;
+font : bold 440% ISOCPEUR, sans-serif;
+}
+
+#logos abbr{
+	padding: 5%;
+}
+
+#logos abbr a:link{
+	opacity: 0.75;
+}
+
+#logos abbr a:visited{
+	opacity: 0.75;
+}
+
+#logos abbr a:hover{
+	opacity: 1;
+}

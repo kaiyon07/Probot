@@ -1,0 +1,181 @@
+{% load staticfiles%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Probot_The Unique Chatbot</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="../../../static/styling.css">
+<link href='https://fonts.googleapis.com/css?family=Nanum Brush Script' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Concert One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid" style="padding-left: 1%; margin: 0.5%;">
+		<div class="navbar-header">
+			<button type = "button" class = "navbar-toggle" 
+		       data-toggle = "collapse" data-target = "#myNavBar" style="margin-top: 17px;">
+		       <span class = "sr-only">Toggle navigation</span>
+		       <span class = "icon-bar"></span>
+		       <span class = "icon-bar"></span>
+		       <span class = "icon-bar"></span>
+		    </button>
+			<ul class="nav navbar-nav name" id="ul1">
+				<li><a href="#">HOME</a></li>
+			</ul>
+		</div>
+
+		<div class="collapse navbar-collapse" id="myNavBar">
+			<ul class="nav navbar-nav navbar-right" id="ul1">
+				<li><a href="#education">ABOUT ME</a></li>
+				<li><a href="#achievements">DEVELOPERS</a></li>
+				<li><a href="#skills">FAQs</a></li>
+				<li><a href="#contactme">REVIEW US</a></li>
+			</ul>
+		</div>	
+	</div>	
+</nav>
+<div id="pback">
+	<img src="../../../static/docubot.gif" align="padding-left";>
+	<span style="background-image: url('../../../static/bg.png');"> 
+		
+		<div class="container-fluid" style="font-family: ISOCPEUR, sans-serif; margin: 4px 0px 0px 0px; color: #06325b;background-color: white">
+	<div class="container-fluid" style="margin: 10px 0px 80px 0px;" id="logos">
+		
+		<div style="padding-left: 15%">
+		
+		</div>
+	</div>
+		<h1 style="font-family: 'Concert One';font-size: 300%; ">Hi! I am Probot.....</h1>
+	<div id = "nice">
+		<form class="form-horizontal"  style="font-size: 150%;" action="/polls/submit-query" method="POST">
+		    <div class="form-group">
+		      <label class="col-sm-2"></label>
+		      <label class="control-label col-sm-2" for="inputlg">Your Query :</label>
+		      <div class="col-sm-5">
+		        <textarea class="form-control" placeholder="QUERY.....?????" name="some-name" rows="1" id="some-id"></textarea>
+		      </div>
+		    </div>
+		    <div class="form-group">        
+		      <div class="col-sm-offset-2 col-sm-6">
+		        <button type="submit" class="btn btn-default">Submit</button>
+		      </div>
+		    </div>
+		  </form></div>
+<!--Form starts here-->
+		<div style="text-align: center">
+		<form class="form-horizontal"  enctype="text/plain" style="font-size: 150%;" action="/polls/submit-query" method="POST" >
+		    <div class="form-group">
+		   	   <label class="col-sm-2"></label>
+		    		<label class="control-label col-sm-2" for="inputlg"><p>Your Answer</p>
+		    		</label>
+		    <div class="col-sm-5">
+		        <textarea class="form-control" placeholder="" rows="5" name="answer">{% if answer %}{{ answer }}{% else %}Here Your answer will be displayed{% endif %}</textarea>
+		    	</div>
+		    </div>
+		</form>
+
+	</div>
+</div>
+	</form></span>
+</div>
+<div class="topics">
+	<span id="education">ABOUT ME</span>
+</div></span></div>
+<div style="background-image: url('../../../static/des.jpg'); text-align:center;background-attachment : fixed;">
+	<br /><br /><br /><br /><br /><br />
+	<span id="des">Hi, my name is Probot. I am a chatbot. A chatbot is a computer program which conducts a conversation via auditory or
+		  textual methods.
+		  I am institute oriented. I
+		  provide all information required by you students about the institute, for
+		  example, whom to approach for doing a certain project in the campus, office
+		  hours of faculty, time-tables, course curriculum, courses available in a semester,
+		  medical facilities, etc.
+		  I also know about various details and fact about your institute, and
+		  I am a guide to many people who wish to know about your institute.
+		  Working:
+		  I have been made on a Django (Python) framework. My front-end has
+		  been developed using HTML, CSS, JS and some Python codes. My back-end also
+		  involves some Machine learning algorithms in Python. My database is a csv file
+		  which is obtained by web-scraping the required content from the IITGN
+		  website (www.iitgn.ac.in).</span>
+	<br /><br /><br /><br /><br /><br />
+</div>
+<div id="yes">
+<div id="achievements"><br /><br /><br /><span class="categorys" >DEVELEPORS <br /> <br /></span>
+
+    <span class="one"><h1>Nidhin Harilal</h1></span>
+    <span class="two"><h1>Vishnu Kartikeya</h1></span>
+    <div style="margin-top: 90px;">
+    <span class="one"><h1>Mrinal Anand</h1></span>
+    <span class="two"><h1>Kishen Gowda</h1></span>
+    </div>
+    <div style="margin-top: 185px;">
+    <span class="one"><h1>Rushali Saxena</h1></span>
+    </div>
+<br /><br /><br /><br /><br /><br /></div>
+</div>
+
+<div class="topics">
+	<span id="skills">FAQs</span>
+</div>
+
+<div style="background-image: url('../../../static/cr.jpg');">
+	<br /><br /><br />
+<span id="fqgif"><img src="../../../static/chat-bot.gif" height="320" width="450" "></span>
+<span id="fqq"><p>Q. How to ask a query?</p> 
+<p>.  -  Type your query in the text box mentioned and press on the submit button sit back and within no time answer will be displayed in "*your anser"/p>
+<p>Q. How this chatbot works?</p>
+<p>.  It takes your query get close matches of your search and it searches in our database(CSV file) then it gives the output.</p>
+<p>Q. What is the framework used for back end?</p>
+<p>.  Django(python)</p>
+<p>Q. Who is the mentor for this project?</p>
+<p>   Rushali Saxena only</p>
+</span>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
+<br /><br /></div>
+	<div id="contactme" style="text-align: center;"><br/><br/><br/>
+		<h1 style="font : bold 440% Nanum Brush Script, sans-serif; ">Comments/Suggestions about me...</h1>
+		<br/><br/><br/><br/><br/>
+		<div ><span id="feedg"><img src="../../../static/giphy.gif"></span>
+		<span id="form"><form class="form-horizontal" action="mailto:nidhinharilal9@gmail.com" method="post" enctype="text/plain" style="font-size: 150%;">
+		    <div class="form-group" style="font : Nanum Brush Script, sans-serif;">
+		      <label class="col-sm-2"></label>
+		      <label class="control-label col-sm-2" for="usr">Name:</label>
+		      <div class="col-sm-5">
+		        <input type="text" class="form-control" id="usr" placeholder="Enter name">
+		      </div>
+		    </div>
+		    <div class="form-group">
+		      <label class="col-sm-2"></label>
+		      <label class="control-label col-sm-2" for="email">Email:</label>
+		      <div class="col-sm-5">
+		        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+		      </div>
+		    </div>
+		    <div class="form-group">
+		      <label class="col-sm-2"></label>
+		      <label class="control-label col-sm-2" for="inputlg">Feedback:</label>
+		      <div class="col-sm-5">
+		        <textarea class="form-control" placeholder="Enter Feedback" rows="8"></textarea>
+		      </div>
+		    </div>
+		    <div class="form-group">        
+		      <div class="col-sm-offset-2 col-sm-6">
+		        <button type="submit" class="btn btn-default">Submit</button>
+		      </div>
+		    </div>
+		  </form></span>
+	</div>
+</div>
+</div>
+</body>
+</html>
